@@ -1,6 +1,7 @@
 body {
   font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
+  height: auto;
 }
 
 a {
@@ -37,4 +38,19 @@ p {
   p {
     max-width: none;
   }
+}
+
+img {
+  max-height: 30vh;
+  block-size: auto;
+  aspect-ratio: 2/1;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.sf{
+  bottom: 0;
+  position:fixed;
+  margin-bottom: 0;
+  align-items:center;
 }

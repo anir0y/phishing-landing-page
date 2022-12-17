@@ -7,16 +7,12 @@ export default function Home() {
       <Title>Phishing Landing Page</Title>
       <h1>You jUst got phished!</h1>
       <br /><br /><br />
-      <img src="img/kitty.gif" alt="hehehe"></img>
+      <div class="img">
+      <img src="img/kitty.gif" alt="hehehe"></img></div>
 
-      <Counter />
-      <p>
-        Visit{" "}
-        <a href="https://anir0y.in" target="_blank">
-          anir0y.in
-        </a>{" "}
-        to learn more.
-      </p>
+      <div class="sf">
+        <p>Phishing <a href="https://anir0y.in">@anir0y</a>❤️ 2022-2023</p>
+        </div> 
     </main>
   );
 }
