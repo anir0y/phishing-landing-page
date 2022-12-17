@@ -6,6 +6,9 @@ export default function Home() {
     <main>
       <Title>Phishing Landing Page</Title>
       <h1>You jUst got phished!</h1>
+      <br /><br /><br />
+      <img src="img/kitty.gif" alt="hehehe"></img>
+
       <Counter />
       <p>
         Visit{" "}
